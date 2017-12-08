@@ -60,7 +60,7 @@ header #branding{
     float: left;
 }
 
-header #branding h1
+header #branding h1{
     margin:0;
 }
 
@@ -107,7 +107,7 @@ header a:hover{
 }
 
 #boxes .box{
-    float:center;
+    float:left;
     text-align:center;
     width:30%;
     padding:10px;
