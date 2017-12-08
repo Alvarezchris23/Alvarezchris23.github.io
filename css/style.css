@@ -114,7 +114,9 @@ header a:hover{
 }
 
 #boxes .box img{
-    width:90px;
+    width:50%;
+    margin:1px auto;
+    display:block;
 }
 
 /* sidebar */
