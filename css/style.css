@@ -110,12 +110,11 @@ header a:hover{
     float:left;
     text-align:center;
     width:30%;
-    padding:5px;
+    padding:10px;
 }
 
 #boxes .box img{
-    width:50%;
-    margin:45px;
+    width:120px;
 }
 
 /* sidebar */
