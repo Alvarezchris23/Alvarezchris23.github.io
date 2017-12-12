@@ -24,3 +24,4 @@ for i in range (500):
         g = 0
     if r > 255:
         r = 255
+raw_input("Press enter to close")
