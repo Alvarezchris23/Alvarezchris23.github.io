@@ -19,3 +19,17 @@ h2{
     text-align:center;
     padding-top:2%;
 }
+
+h3{
+    font-size:175%;
+    line-height:155%;
+    padding: 5% 0;
+    font-weight:400;
+}
+
+p{
+    font-size:160%;
+    line-height:150%;
+    padding:3%;
+    
+}
