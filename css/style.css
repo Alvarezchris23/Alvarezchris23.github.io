@@ -28,6 +28,7 @@ h3{
 }
 
 p{
+    font-family: "Alegrya", sans-serif;
     font-size:160%;
     line-height:150%;
     padding:3%;
@@ -117,3 +118,128 @@ nav ul li a:hover{
     float:left;
     text-align:center;
 }
+
+#messibox{
+    background-color:#49E20E;
+}
+
+#ronnybox{
+    background-color:#ffffff;
+}
+
+#neybox{
+    background-color:#49E20E;
+}
+
+#conbox{
+    background-color:ffffff;
+}
+
+.inner-wrapper{
+    float:left;
+    width:100%;
+    background-color:#C3D7DF;
+}
+
+article{
+    float:left;
+    margin:0 auto;
+    width:50%;
+    height:auto;
+}
+
+#tablet{
+    background-color:#C3D7DF;
+}
+
+aside{
+    float:right;
+    margin:0 auto;
+    width:50%;
+    height:auto;
+}
+
+#messiandronny{
+    background-color:#ffffff;
+}
+
+#heart{
+    background-color:#BEB9AD;
+}
+
+#globe{
+    background-color:#F1AA90;
+}
+.inner-wrapper-2{
+    float:left;
+    width:100%;
+    background-color:#C3D7DF;
+}
+
+.inner-wrapper-3{
+    float:left;
+    width:100%;
+    background-color:#AADCD2;
+}
+
+.one-third{
+    width:33.333333333333%;
+    float:left;
+    text-align:center;
+}
+
+#google{
+    color:#ffffff;
+    background-color:#A2B1C1;
+}
+
+#marketing{
+    color:#ffffff;
+    background-color:#BEB9AD;
+}
+
+#customers{
+    color:#ffffff;
+    background-color:#AADCD2;
+}
+
+#smiley{
+    color:#ffffff;
+    background-color:#AADCD2;
+    padding: 0 0 1%;
+    clear:both;
+}
+/*Start Footer*/
+footer{
+    color:#ffffff;
+    background-color:#6991AC;
+    width:100%;
+}
+
+.social{
+    list-style-type:none;
+    text-align:center;
+}
+
+.social li{
+    display:inline;
+}
+
+.second{
+    border-top:1px solid #AADCD2;
+    background-color:#544B59;
+    max-height:55px;
+    margin:0;
+}
+
+.second p{
+    padding:5px 0 9px 0;
+    text-align: center
+}
+
+
+
+
+
+
+
