@@ -39,7 +39,7 @@ p{
 img{
     max-width:100%;
     height: auto;
-    width:auto;
+    width:100%;
     margin-bottom:-4px;
 }
 
@@ -60,7 +60,7 @@ header{
     width:200px;
     height:60px;
     background: url(img/RE.png) no-repeat center;
-} /* fix your logo */
+} /* fix your logo **************************************/
 
 /*starting nav*/
 nav{
