@@ -52,7 +52,7 @@ img{
 }
 
 header{
-    background-color:#6991AC;
+    background-color:#C3D7DF;
     width:100%;
     height:86px;
 }
@@ -84,10 +84,9 @@ header{
 
 #logo{
     margin:20px;
-    float:left;
+    float:center;
     width:200px;
     height:60px;
-    background: url(img/RE.png) no-repeat center;
 } /* fix your logo **************************************/
 
 /*starting nav*/
@@ -133,7 +132,7 @@ nav ul li a:hover{
 /*End nav style*/
 .banner{
     width:100%;
-    background-color:#6991AC;
+    background-color:#C3D7DF;
 }
 
 .banner-inner{
@@ -148,7 +147,7 @@ nav ul li a:hover{
 }
 
 #messibox{
-    background-color:#49E20E;
+    background-color:#FF7400;
 }
 
 #ronnybox{
@@ -156,7 +155,7 @@ nav ul li a:hover{
 }
 
 #neybox{
-    background-color:#49E20E;
+    background-color:#FF7400;
 }
 
 #conbox{
