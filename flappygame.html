@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Processing Demo</title>
+<script type="text/javascript" src="jscode.js"></script>
+</head>
+
+<body>
+<script type="text/processing">
+PImage back; //creates variable for an image
+PImage chug;
+PImage wall;
+int x = 0; int count = 0; int Vy = 0; int My = 0; // Gravity
+int gamestate = 0;
+int[] wx = new int[2];
+int[] wy = new int[2];
+
+void setup(){
+  size(1000,750);
+  chug = loadImage("./img/chuggie.png");
+  back = loadImage("./img/scrollback.png");
+  wall = loadImage("./img/blackrect1.png");//loads and saves the image
+}
+
+void draw(){
+  if (gamestate == 0){
+  image(back, 0 + x, 0);
+  image(back, 1000 + x, 0);
+  count --;
+  if (x == -1000){
+    x = 0;
+  }
+  image(chug, 100, My + Vy);
+  x--;
+  Vy++;
+  My = My + Vy;
+  for (int i = 0 ; i < 2 ; i++) {
+    image(wall, wx[i], wy[i] - (wall. height / 2 + 100));
+    image(wall, wx[i], wy[i] + (wall. height / 2 + 100));
+  if (wx[i] < 0) {
+    wy[i] = (int (random(200, height - 200)));
+    wx[i] = width;
+  }
+  wx[i] -= 6;
+  }
+  if (My > 750){
+    gamestate = 2;
+   }
+  }
+  if (gamestate == 2){
+    textSize(40); fill(203,149,55);
+    text("Sorry, Game Over!", 335, 375);
+    rect(400, 400, 200, 75);
+    fill (0);
+    text("Restart", 435, 450);
+    
+    if (mouseX > 400 && mouseX < 600 && mouseY > 400 && mouseY < 475){
+      textSize(40); fill(255,0,0);
+      rect(400, 400, 200, 75);
+      fill (0);
+      text("Restart", 435, 450);
+      
+      if (mousePressed){
+        gamestate = 0;
+        My = 200;
+      }
+    }
+   }
+}
+
+void mousePressed(){
+  Vy = -13;
+}
+</script>
+<canvas id="sketch" style="border: 1px solid black;"></canvas>
+</body>
+</html>
